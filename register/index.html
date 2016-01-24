@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+</head>
+<body>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+           <!--/ freshdesignweb top bar -->    
+      <div  class="form">
+    		<form id="contactform"> 
+    			<p class="contact"><label for="name">Vārds</label></p> 
+    			<input id="name" name="name" placeholder="vārds un uzvārds" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="email">E-pasts</label></p> 
+    			<input id="email" name="email" placeholder="piemērs@domain.com" required="" type="email"> 
+                
+                <p class="contact"><label for="username">Lietotājvārds</label></p> 
+    			<input id="username" name="username" placeholder="lietotājvārds" required="" tabindex="2" type="text"> 
+    			 
+                <p class="contact"><label for="password">Parole</label></p> 
+    			<input type="password" id="password" name="password" required=""> 
+                <p class="contact"><label for="repassword">Parole 2. reizi</label></p> 
+    			<input type="password" id="repassword" name="repassword" required=""> 
+        
+               <fieldset>
+                 <label>Dzimšanas diena</label>
+                  <label class="month"> 
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Mēnesis</option>
+                  <option  value="01">Janvāris</option>
+                  <option value="02">Februāris</option>
+                  <option value="03" >Marts</option>
+                  <option value="04">Aprīlis</option>
+                  <option value="05">Maijs</option>
+                  <option value="06">Jūnijs</option>
+                  <option value="07">Jūlijs</option>
+                  <option value="08">Augusts</option>
+                  <option value="09">Septembris</option>
+                  <option value="10">Oktobris</option>
+                  <option value="11">Novembris</option>
+                  <option value="12" >Decembris</option>
+                  </label>
+                 </select>    
+                <label>Diena<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Diena" required=""></label>
+                <label>Gads<input class="birthyear" maxlength="4" name="BirthYear" placeholder="Gads" required=""></label>
+              </fieldset>
+  
+            <select class="select-style gender" name="gender">
+            <option value="select">Dzimums</option>
+            <option value="m">Vīrietis</option>
+            <option value="f">Sieviete</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="phone">Tālrunis</label></p> 
+            <input id="phone" name="phone" placeholder="tālrunis" required="" type="text"> <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Reģistrēties" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+
+</body>
+</html>
